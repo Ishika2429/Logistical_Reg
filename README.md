@@ -33,6 +33,27 @@ Launch Jupyter Notebook: jupyter notebook
 Open the Week5b-Tutorial-LogReg.ipynb file and follow the tutorial.
 <hr/>
 
+# Breakdown of Tests
+1. Data Validation Tests:
+<li>Confirms the absence of missing or corrupted data.</li>
+<li>Ensures that data is in a format suitable for modeling.</li>
+2. Model Performance Tests:
+<li>Calculates crucial measures such as accuracy, precision, recall, and F1 score.</li>
+<li>Creates a Confusion Matrix to visualize classification results.</li>
+3. Visualization Tests:
+<li>Plots the ROC-AUC curve to determine the model's discriminating power.</li>
+<hr/>
+
+# Deployment
+This project is designed for local execution in a development environment. However, the methods and insights can be expanded to deploy machine learning models on platforms such as:
+<li>AWS SageMaker</li>
+<li>Google Cloud AI</li>
+<li>Heroku</li>
+Steps for deployment:
+<li>Convert the trained model to a deployable format</li>
+<li>Integrate with APIs or web apps to get real-time predictions.</li>
+<hr/>
+
 # Usage
 This tutorial is intended for students and professionals seeking a practical introduction to Logistic Regression. By following the steps in the notebook, you'll learn how to:
 <li>Prepare data for modeling.</li>
